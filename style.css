@@ -1,5 +1,13 @@
+.pixelify-sans-font {
+    font-family: "Pixelify Sans", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
-    font-family: 'Poppins', sans-serif;
+    image-rendering: pixelated;
+    font-family: 'Pixelify Sans', monospace;
     background-color: rgb(126, 189, 203);
     margin: 0;
     display: flex;

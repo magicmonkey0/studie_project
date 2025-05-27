@@ -3,27 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>notes</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel href="stylesheet" href="https://cdnjs.cloudflare.com/
-    ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>studie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=
+    Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div id="container">
-        <div id="list-header">
-            <div id="addNoteDiv" onclick="popup()">
-                <i class="fa-solid fa-plus"></i>
-            </div>
-            <div class="blankDiv"></div>
-            <div class="blankDiv"></div>
-        </div>  
-        <div id="list-container">
-            <ul id="notes-list"></ul>
-        </div> 
-    </div>
-    <script src="./script.js"></script>
+    <div class="app-container">
+        <div class="sidebar">
+          <button class="section-btn">Calendar</button>
+          <button class="section-btn">Timer</button>
+          <a href="notes.html">
+            <button class="section-btn">Notes</button>
+          </a>
+
+        </div>
+        <div class="main-content">
+          <h2>To Do</h2>
+          <ul>
+            <li>Assignment 2</li>
+            <li>Quiz on Friday</li>
+          </ul>
+          <h3>Groceries:</h3>
+          <ul>
+            <li>Milk</li>
+            <li>Avocado</li>
+          </ul>
+        </div>
+      </div>
+      <script src="script.js"></script>
 </body>
-
-
 </html>
