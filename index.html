@@ -4,35 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>studie</title>
-    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=
-    Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="app-container">
-        <div class="sidebar">
-          <button class="section-btn">Calendar</button>
-          <button class="section-btn">Timer</button>
-          <a href="notes.html">
-            <button class="section-btn">Notes</button>
-          </a>
 
-        </div>
+<body>
+  <div class="header">
+    <h1 style="color: #19371b">to do</h1>
+  </div>
+  <div class="icon" id="header-frog">
+    <img src="assets/frog.png" alt="Frog icon">
+  </div>
+    <div class="app-container">
         <div class="main-content">
-          <h2>To Do</h2>
-          <ul>
-            <li>Assignment 2</li>
-            <li>Quiz on Friday</li>
-          </ul>
-          <h3>Groceries:</h3>
-          <ul>
-            <li>Milk</li>
-            <li>Avocado</li>
-          </ul>
+          <div class="note-container" id="note1">
+            <h3>MATH :</h3>
+            <ul>
+              <li>assignment 2</li>
+              <li>quiz on Friday</li>
+            </ul>
+          </div>
+          <div class="note-container" id="note2">
+            <h3>groceries :</h3>
+            <ul>
+              <li>milk</li>
+              <li>avocado</li>
+              <li>bread</li>
+            </ul>
+          </div>
+          <div class="note-container" id="note3">
+            <h3>languages :</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="note-container" id="note4">
+            <h3>Deep Cove :</h3>
+            <ul>
+              <li>sunscreen</li>
+              <li>water</li>
+              <li>swimming</li>
+              <li>crocs</li>
+              <li>towel</li>
+            </ul>
+          </div>
         </div>
       </div>
+
+      <div class="sidebar">
+        <button class="section-btn" id="calendar-btn" style="color: #19371b">
+          calendar
+          <img src="assets/calendar_icon.png" class="icon" alt="Calendar Icon">
+        </button>
+        <button class="section-btn" id="timer-btn" style="color: #19371b">
+          timer
+          <img src="assets/timer_icon.png" class="icon" alt="Timer Icon">
+        </button>
+        <a href="notes.html">
+          <button class="section-btn" id="notes-btn" style="color: #19371b">
+            notes
+            <img src="assets/notes_icon.png" class="icon" alt="Notes Icon">
+            
+          </button>
+        </a>
+      </div>
+
+
       <script src="script.js"></script>
 </body>
 </html>

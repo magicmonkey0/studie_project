@@ -1,19 +1,126 @@
-.pixelify-sans-font {
-    font-family: "Pixelify Sans", monospace;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-}
-
 body {
     image-rendering: pixelated;
     font-family: 'Pixelify Sans', monospace;
-    background-color: rgb(126, 189, 203);
+    background-color: rgba(255,252,185,255);
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+}
+
+.icon {
+    width: 90px;
+    height: 80px;
+    display: flex;
+    align-self: last baseline;
+}
+
+.note-container {
+    height: 120px;
+    width: 300px;
+    align-content: center;
+    padding: 10px 25px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+#frog {
+    display: flex;
+    
+}
+
+#note1 {
+    background-color: rgba(224,238,213,255);
+}
+
+#note2 {
+    background-color: rgba(206,234,222,255);
+}
+
+#note3 {
+    background-color:deepskyblue;
+}
+
+#note4 {
+    background-color: cornflowerblue;
+}
+
+.app-container {
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgba(230,230,230,255);
+    border-width: 5px;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    top: -320px;
+    left: 110px;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+#header-frog {
+    width: 200px;
+    height: 180px;
+    top: -44px;
+    left: 330px;
+    position: absolute;
+}
+
+.sidebar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 32px 50px;
+}
+
+.section-btn {
+    background-color: #b2f582;
+    font-family: "Pixelify Sans", monospace;
+    width: 300px;
+    height: 100px;
+    text-align: left;
+    border-color: rgb(15, 199, 73);
+    border-style: solid;
+    border-radius: 15px;
+    padding-top: 28px;
+    padding-left: 16px;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    cursor: pointer;
+    border-width: 5px;
+    margin-bottom: 30px;
+}
+
+#calendar-btn {
+    background-color: rgba(224,238,213,255);
+    border-color: rgba(167,217,130,255);
+}
+
+#timer-btn {
+    background-color: rgba(206,234,222,255);
+    border-color: rgba(126,210,176,255);
+}
+
+#notes-btn {
+    background-color: rgba(178,221,139,255);
+    border-color: rgba(124,210,49,255);
 }
 
 #container {
