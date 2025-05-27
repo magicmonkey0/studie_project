@@ -1,0 +1,56 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(126, 189, 203);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#container {
+    background-color: rgb(242, 242, 146);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 827px;
+    height: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+#list-header {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.blankdiv {
+    background-color: rgb(242, 242, 146);
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addNoteDiv {
+    background-color: rgb(223, 223, 129);
+    border: 1px solid #c2c769;
+    padding: 20px;
+    border-radius: 8px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
